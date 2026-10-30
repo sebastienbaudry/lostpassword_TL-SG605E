@@ -1,8 +1,6 @@
 # lostpassword_TL-SG605E
 retrieve your TL-SG605E or TL-SG116E switch password from your backup cfg file
 
-# Decoding a Password Field in a TP-Link Easy Smart Backup
-
 This repository contains `decode\_tplink\_password.py`, a small Python script that reads a binary `.cfg` backup and decodes the 11-byte field examined in the test backups.
 
 > \*\*Important limitation:\*\* The behavior was checked against the supplied test files for the TL-SG116E and TL-SG605E models. It is not guaranteed to work with every TP-Link hardware revision, firmware version, or backup format.
